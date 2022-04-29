@@ -6,18 +6,8 @@
     /* color: white; */
     /* box-sizing: border-box; */
 }
-@media only screen and (max-width: 489px){
-    .icons{
-        justify-content: flex-end;
-        align-content: center;
-        margin: 0px 0px 0px -135px;
-    }    
-    .op-name3{
-        margin: 0px 0px 0px -6px;
-    }
-    .op-name1{
-        margin: 0px 0px 0px -40px;
-    }
+.box4{
+    color:rgb(0, 0, 0);
 }
 
 
@@ -48,10 +38,12 @@ a{
 .github-icon:hover{
     transform: scale(1.1);
     transition: 0.3s;
+    color:rgb(162, 79, 79);
 }
 .linkedin-icon:hover{
     transform: scale(1.1);
     transition: 0.3s;
+    color:rgb(162, 79, 79);
 }
 .linkedin-icon{
     margin: 15px 10px 0px 112px;
@@ -301,7 +293,7 @@ body{
     justify-content: flex-start;
     position:absolute;
     right: 37%;
-    top: 5vh;
+    top: 19vh;
 }
 
 .mobile-menu {
@@ -339,3 +331,19 @@ ul li{
     float: left;
 } 
 */
+@media only screen and (max-width: 489px){
+    .icons{
+        justify-content: flex-end;
+        align-content: center;
+        margin: 0px 0px 0px -135px;
+    }    
+    .op-name3{
+        margin: 0px 0px 0px -6px;
+    }
+    .op-name1{
+        margin: 0px 0px 0px -18px;
+    }
+    .open .mobile-menu{
+        top: 28vh;
+    }
+}

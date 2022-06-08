@@ -1,3 +1,6 @@
+
+
+
 /* Desktop Section */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 *{
@@ -6,10 +9,24 @@
     /* color: white; */
     /* box-sizing: border-box; */
 }
-.box4{
-    color:rgb(0, 0, 0);
+
+
+.box1Photo{
+    width: 100%;
+    height: auto;
+    z-index: 0;
+    filter: blur(4px);
 }
 
+.box1Text{
+    color:rgb(132 124 255);
+    margin: 102px -16px 47px -292px;
+    z-index: 1;
+}
+.box1:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
 
 .op-name1{
     margin: 0px 0px 0px -94px;
@@ -314,6 +331,7 @@ body{
     #hamburger-icon{
         display: block;
     }
+}
 
 
     
@@ -347,3 +365,5 @@ ul li{
         top: 28vh;
     }
 }
+
+

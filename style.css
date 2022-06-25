@@ -10,6 +10,35 @@
     /* box-sizing: border-box; */
 }
 
+.opening-text:hover{
+    transform: scale(1.2);
+    transition: 0.9s;
+}
+
+.centertext{
+    padding: 0px 0px 0px 0px;
+    font-size: xxx-large;
+    display: flex;
+    justify-content: space-around;
+}
+.box2:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.box2Photo{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    filter: blur(4px);
+}
+.box2Text {
+    position: absolute;
+    color: rgb(186, 181, 255);
+    z-index: 1;
+    margin: -85px 0px 0px 0px;
+    width: 283px;
+}
 
 .box1Photo{
     width: 100%;
@@ -115,9 +144,10 @@ a{
 }
 #project_box{
     display: flex;
+    padding: 0px 0px 0px 0px;
+    justify-content: space-between;
 }
 .box1{
-    margin: auto;
     left: 100px;
     display: flex;
     height: 185px;
@@ -126,7 +156,6 @@ a{
     justify-content: flex-start;
 }
 .box2{
-    margin: auto;
     left: 100px;
     display: flex;
     height: 185px;
@@ -135,12 +164,11 @@ a{
     justify-content: flex-start;
 }
 .box3{
-    margin: auto;
     left: 100px;
     display: flex;
     height: 185px;
     width: 296px;
-    background-color: rgb(167, 167, 167);
+    background-color: rgb(41, 41, 41);
     justify-content: flex-start;
 }
 .box4{
@@ -216,6 +244,7 @@ header{
     display: flex;
     justify-content: space-between;
     width: auto;
+    
 }
 
 li{
@@ -266,6 +295,11 @@ body{
     #project_box{
     flex-direction: column;
     padding: 0px 0px 0px 0px; 
+    align-items: center;
+    }
+    .box1 .box2 .box3{
+        margin:auto;
+        padding: 0px 0px 0px 0px;
     }
 }
 
@@ -364,6 +398,22 @@ ul li{
     .open .mobile-menu{
         top: 28vh;
     }
+    
 }
 
 
+@media only screen and (max-width: 565px){
+    #section2{
+        height: 633px;
+    }
+    .icons{
+        font-size: medium;
+        display: initial;
+        margin: 85px 68px -1px -110px;
+        width: 45px;
+    }
+    #section4{
+       height: auto;
+    }
+    
+}

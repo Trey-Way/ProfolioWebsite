@@ -1,6 +1,4 @@
 
-
-
 /* Desktop Section */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 *{
@@ -8,6 +6,9 @@
     margin: 0;
     /* color: white; */
     /* box-sizing: border-box; */
+}
+html {
+    scroll-behavior: smooth;
 }
 
 .opening-text:hover{
@@ -76,9 +77,18 @@ a{
     color:rgb(255, 255, 255);
 }
 .icons{
-    display:flex;
+    display: flex;
+    margin: 0px 0px -227px 0px;
     flex-wrap: wrap;
+    justify-content: center;
     align-content: space-around;
+}
+
+
+.resume-icon:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    color:rgb(162, 79, 79);
 }
 
 .github-icon:hover{
@@ -92,17 +102,30 @@ a{
     color:rgb(162, 79, 79);
 }
 .linkedin-icon{
-    margin: 15px 10px 0px 112px;
-    padding: 0px 0px 0px 0px;
+    /* margin: 15px 10px 0px 112px;
+    padding: 0px 0px 0px 0px; */
     font-size: 40px;
     display:flex;
     flex-direction: row-reverse;
+    margin: 0px 49px 33px 0px;
+    justify-content: center;
 }
 .github-icon{
-    margin: 108px 10px 0px -90px;
-    padding: 0px 0px 0px 0px;
+    /* margin: 108px 10px 0px -90px;
+    padding: 0px 0px 0px 0px; */
     font-size: 40px;
     display:flex;
+    display: flex;
+    margin: 0px 49px 33px 0px;
+    justify-content: center;
+}
+.resume-icon{
+    /* margin: 108px 10px 0px -90px;
+    padding: 0px 0px 0px 0px; */
+    font-size: 40px;
+    display: flex;
+    margin: 0px 49px 33px 0px;
+    justify-content: center;
 }
 #s3top{
     font-size: 30px;
@@ -119,6 +142,11 @@ a{
     #section4{
     margin: 512px 6px 0px 0px;
     }
+    .open .mobile-menu{
+        position: absolute;
+        z-index: 4;
+        
+    }
 }
 .text_p{
     font-size: 40px;
@@ -129,7 +157,7 @@ a{
     color: rgb(255, 255, 255);
     width: auto;
     display: flex;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 240px 0px;
 }
 
 .bracket2{
@@ -297,9 +325,8 @@ body{
     padding: 0px 0px 0px 0px; 
     align-items: center;
     }
-    .box1 .box2 .box3{
-        margin:auto;
-        padding: 0px 0px 0px 0px;
+    .box1, .box2, .box3, .box4{
+        margin: 0px 0px 30px 0px;
     }
 }
 
@@ -396,7 +423,10 @@ ul li{
         margin: 0px 0px 0px -18px;
     }
     .open .mobile-menu{
-        top: 28vh;
+        position: absolute;
+        z-index: 4;
+        margin: 115px -48px 15px 0px;
+        
     }
     
 }

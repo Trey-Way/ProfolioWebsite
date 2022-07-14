@@ -22,6 +22,26 @@ html {
     display: flex;
     justify-content: space-around;
 }
+.box3:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.box3Photo{
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    filter: blur(4px);
+}
+
+.box3Text {
+    position: absolute;
+    color: rgb(210 209 233);
+    z-index: 1;
+    margin: -85px 0px 0px 0px;
+    width: 283px;
+}
+
 .box2:hover{
     transform: scale(1.1);
     transition: 0.3s;
